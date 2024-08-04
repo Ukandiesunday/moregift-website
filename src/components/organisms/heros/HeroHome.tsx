@@ -49,7 +49,7 @@ const HeroHome = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [slides.length]);
 
   return (
     <div className={style.container}>

@@ -20,7 +20,7 @@ const Index = () => {
             Download moregift app APK
           </a>
         </div>
-        <Link href="" className={style.logo}>
+        <Link href="/home" className={style.logo}>
           <Image src="/icons/apklogo.png" alt="" width="100" height="36" />
         </Link>
       </div>
